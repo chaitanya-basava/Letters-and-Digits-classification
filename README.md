@@ -47,4 +47,4 @@ All the 3 models which were used for each induvidual tasks are fairly similar wh
 
 <hr>
 
-The last cell block in each ipynb files contains the code to see the results by selecting an image manually from the testset to see how the model works. There is still a lots of room to improve each of these models, especially the first and second as the data in those cases is not equally distributed. As the number of images for digits (both upper and lower case included) are more than that of letters.
+The last cell block in each ipynb files contains the code to see the results by selecting an image manually from the testset to see how the model works. There is still a lots of room to improve each of these models, especially the first and second as the data in those cases is not equally distributed. As the number of images for letters (both upper and lower case included) are more than that of digits.
