@@ -7,7 +7,7 @@ In this repository we can find three ipynb files, each file contains the code fo
   <li>The <b>OFL_Assign_3.ipynb</b> file contains a classifier to classify what letter or digit is present in the input image.</li>
 </ol>
 
-The dataset used for training these classifiers is <b>emnist</b> dataset which contains 47 classes (10 - digits, 26 - lower case letters and 11 - upper case letters). In the train set there are a total of 112,800 (2,400 per class) images and in the test set there are 18,800 (400 per class) images. The dataset can be downloaded from<a href="https://drive.google.com/open?id=12OYCKGQp1VybvLM157ioLU4Bjt7PWpt-"> Here</a>. Else you can directly download the processed npy files from <a href="https://drive.google.com/drive/folders/1mM0AXR0dk0fFucac0bRi7SrIl90g3KJK?usp=sharing">Here</a> and place them in npy_files directory.
+The dataset used for training these classifiers is <b>emnist</b> dataset which contains 47 classes (10 - digits, 26 - lower case letters and 11 - upper case letters). In the train set there are a total of 112,800 (2,400 per class) images and in the test set there are 18,800 (400 per class) images. The dataset can be downloaded from <a href="https://drive.google.com/open?id=12OYCKGQp1VybvLM157ioLU4Bjt7PWpt-">Here</a>. Else you can directly download the processed npy files from <a href="https://drive.google.com/drive/folders/1mM0AXR0dk0fFucac0bRi7SrIl90g3KJK?usp=sharing">Here</a> and place them in npy_files directory.
 
 <hr>
 The accuracies obtained for each tasks are as follows
