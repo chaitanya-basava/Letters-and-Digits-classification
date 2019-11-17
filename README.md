@@ -2,14 +2,14 @@
 
 In this repository we can find three ipynb files, each file contains the code for the following:
 <ol>
-  <li>The <b>OFL_Assign_1.ipynb</b> file contains the code for a basic binary classifier, which classifies if the input image contains a letter or a digit.</li>
-  <li>The <b>OFL_Assign_2.ipynb</b> file contains the code for a four class classifier, the four classes are even, odd, vowel and consonant. The classifier has to predicit what type does the input image contain in an end-to-end fashion.</li>
-  <li>The <b>OFL_Assign_3.ipynb</b> file contains a classifier to classify what letter or digit is present in the input image.</li>
+  <li>The <b><a href="https://github.com/chaitnayabasava/Letters-and-Digits-classification/blob/master/OFL_Assign_1.ipynb">OFL_Assign_1.ipynb</a></b> file contains the code for a basic binary classifier, which classifies if the input image contains a letter or a digit.</li>
+  <li>The <b><a href="https://github.com/chaitnayabasava/Letters-and-Digits-classification/blob/master/OFL_Assign_2.ipynb">OFL_Assign_2.ipynb</a></b> file contains the code for a four class classifier, the four classes are even, odd, vowel and consonant. The classifier has to predicit what type does the input image contain in an end-to-end fashion.</li>
+  <li>The <b><a href="https://github.com/chaitnayabasava/Letters-and-Digits-classification/blob/master/OFL_Assign_3.ipynb">OFL_Assign_3.ipynb</a></b> file contains a classifier to classify what letter or digit is present in the input image.</li>
 </ol>
 
 The dataset used for training these classifiers is <b>emnist</b> dataset which contains 47 classes (10 - digits, 26 - lower case letters and 11 - upper case letters). In the train set there are a total of 112,800 (2,400 per class) images and in the test set there are 18,800 (400 per class) images. The dataset can be downloaded from <a href="https://drive.google.com/open?id=12OYCKGQp1VybvLM157ioLU4Bjt7PWpt-">Here</a>. Else you can directly download the processed npy files from <a href="https://drive.google.com/drive/folders/1mM0AXR0dk0fFucac0bRi7SrIl90g3KJK?usp=sharing">Here</a> and place them in npy_files directory.
 
-The <b>pre_processing.py</b> file can be used to create the processed npy files which were used to train and test the models.
+The <b><a href="https://github.com/chaitnayabasava/Letters-and-Digits-classification/blob/master/pre_processing.py">pre_processing.py</a></b> file can be used to create the processed npy files which were used to train and test the models.
 <hr>
 The accuracies obtained for each tasks are as follows
 <ul>
@@ -36,7 +36,7 @@ The accuracies obtained for each tasks are as follows
   </li>
 </ul>
 
-The <b>classwise_results_ques3.txt</b> file contains the classwise results (i.e., precision, recall, f1-score for each class) for the 3rd task.
+The <b><a href="https://github.com/chaitnayabasava/Letters-and-Digits-classification/blob/master/classwise_results_ques3.txt">classwise_results_ques3.txt</a></b> file contains the classwise results (i.e., precision, recall, f1-score for each class) for the 3rd task.
 <hr>
 The pre-trained models can be loaded from the models directory, where there is a h5py file for each of the 3 tasks.
 simply use the following line and replace "model_name" with model that you wish to load<br>
